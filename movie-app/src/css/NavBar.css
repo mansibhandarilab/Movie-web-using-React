@@ -1,10 +1,11 @@
 .navbar {
-  background-color: #000000;
+  background-color: #afaa7e;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
 
 .navbar-brand {
@@ -15,6 +16,7 @@
 .navbar-links {
   display: flex;
   gap: 2rem;
+  
 }
 
 .nav-link {
@@ -22,10 +24,12 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
+  color: darkred;
 }
 
 .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  color: brown;
 }
 
 @media (max-width: 768px) {
